@@ -1,5 +1,7 @@
-﻿https://leandermena.pages.dev/*
+# Block pages.dev preview URLs from search engine indexing
+https://*.pages.dev/*
   X-Robots-Tag: noindex
 
+# Allow main domain to be indexed normally
 https://www.leandermena.com/*
   X-Robots-Tag: index, follow
